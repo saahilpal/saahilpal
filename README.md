@@ -1,7 +1,7 @@
-# <p align="center">⚡ SAAHIL PAL | THE ARCHITECT OF DETERMINISTIC AI ⚡</p>
+# <p align="center">⚡ SAAHIL PAL | ARCHITECTING DETERMINISTIC INTELLIGENCE ⚡</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Engineering%20Reality%20into%20Intelligence&descSize=25&descAlignY=55" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Context%20Architect&descSize=25&descAlignY=55" width="100%">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/System_Status-Online-green?style=for-the-badge&logo=git" alt="Status">
   </a>
   <a href="https://github.com/saahilpal">
-    <img src="https://img.shields.io/badge/Complexity-O(log%20n)-orange?style=for-the-badge" alt="Complexity">
+    <img src="https://img.shields.io/badge/Development-Active-orange?style=for-the-badge" alt="Active">
   </a>
 </p>
 
@@ -27,24 +27,24 @@
   <tr>
     <td width="50%" valign="top">
       <pre>
-<b>$ synapse --init --deep-scan</b>
-> [CORE]: Saahil Pal
-> [ROLE]: Software Architect
+<b>$ gh profile status --real</b>
+> [USER]: saahilpal
+> [REPOS]: 20 Public Engines
+> [CONTRIBUTIONS]: 20+ Pull Requests
+> [UPTIME]: Active since Aug 2024
 > [FOCUS]: Context Engineering
-> [LEVEL]: Peak Creative
-> [MISSION]: Eliminating AI Hallucinations.
-> [STATUS]: Injecting Reality... [OK]
+> [STATUS]: Pushing boundaries... [OK]
       </pre>
     </td>
     <td width="50%" valign="top">
       <pre>
-<b>$ leetsync --audit --global</b>
-> [SOLVED]: 500+ Algorithmic Forge
-> [STREAK]: 🔥 Non-Stop Growth
+<b>$ leetsync audit --global</b>
+> [ALGO]: Solving Patterns @ Scale
+> [SOLUTIONS]: Automatically Synced
+> [STREAK]: Continuous Logic Growth
 > [PATTERNS]: Master of Graphs & DP
-> [EFFICIENCY]: Optimized for Scalability
-> [RANK]: Top 5% Globally
-> [SIGNAL]: Continuous Deployment... [OK]
+> [EFFICIENCY]: Optimized Implementations
+> [SIGNAL]: Syncing solutions... [OK]
       </pre>
     </td>
   </tr>
@@ -52,12 +52,12 @@
 
 ---
 
-### 🧠 THE VISION: BRIDGING THE HALLUCINATION GAP
-I specialize in **Context Engineering**—the high-stakes intersection of **Systems Programming** and **Agentic AI**. My work is dedicated to ensuring that when an AI looks at a codebase, it sees the **Ground Truth**, not a probabilistic guess. I build the deterministic scaffolding that allows non-deterministic models to act with 100% precision.
+### 🧠 THE VISION: ELIMINATING THE HALLUCINATION GAP
+I specialize in **Context Engineering**—the intersection of **Systems Programming** and **Agentic AI**. My work is dedicated to building deterministic scaffolding for non-deterministic models. By mirroring Git states and injecting exact contextual boundaries, I ensure AI agents operate with 100% ground truth.
 
 ---
 
-### 🚀 FEATURED ENGINES (The Portfolio)
+### 🚀 PRODUCTION ENGINES (The Core Portfolio)
 
 <table align="center">
   <tr>
@@ -65,26 +65,26 @@ I specialize in **Context Engineering**—the high-stakes intersection of **Syst
       <a href="https://github.com/saahilpal/synapse">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=synapse&theme=tokyonight" alt="Synapse">
       </a>
-      <br><b>SYNAPSE</b><br><i>Deterministic Context Daemon</i>
+      <br><b>SYNAPSE</b><br><i>Deterministic Context Injection for AI Agents via MCP.</i>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=RAG-DOCAnalyzer&theme=tokyonight" alt="RAG-DOCAnalyzer">
       </a>
-      <br><b>DOC-ANALYZER</b><br><i>Stateless Production RAG</i>
+      <br><b>DOC-ANALYZER</b><br><i>Stateless RAG system with FTS and SSE streaming.</i>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/saahilpal/LeetSync">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=LeetSync&theme=tokyonight" alt="LeetSync">
       </a>
-      <br><b>LEETSYNC</b><br><i>Intelligence Pipeline</i>
+      <br><b>LEETSYNC</b><br><i>Automated intelligence pipeline for algorithmic mastery.</i>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📊 INTELLIGENCE DASHBOARD (Live Metrics)
+### 📊 ANALYTICS DASHBOARD (Live Metrics)
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=saahilpal&theme=tokyonight&area=true&hide_border=true" alt="Activity Graph" width="100%">
@@ -147,11 +147,6 @@ I specialize in **Context Engineering**—the high-stakes intersection of **Syst
     <td align="center">
       <a href="https://linkedin.com/in/saahilpal">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-      </a>
-    </td>
-    <td align="center">
-      <a href="mailto:saahilpal.dev@gmail.com">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
       </a>
     </td>
     <td align="center">
