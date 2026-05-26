@@ -1,44 +1,50 @@
-# 👋 Hi, I'm Saahil Pal
-### Engineering Deterministic Systems for Non-Deterministic Minds
+# <p align="center">⚡ SAAHIL PAL | THE ARCHITECT OF DETERMINISTIC AI ⚡</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=80&animation=fadeIn&fontAlignY=35" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Engineering%20Reality%20into%20Intelligence&descSize=25&descAlignY=55" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=saahilpal&theme=tokyonight&no-bg=true&margin-w=15" alt="Trophies">
 </p>
 
 <p align="center">
   <a href="https://github.com/saahilpal">
-    <img src="https://img.shields.io/badge/Focus-Context%20Engineering-blue?style=for-the-badge&logo=openai" alt="Focus">
+    <img src="https://img.shields.io/badge/Neural_Engine-Synapse_v1.0-blue?style=for-the-badge&logo=openai" alt="Synapse">
   </a>
   <a href="https://github.com/saahilpal">
-    <img src="https://img.shields.io/badge/Role-Software%20Engineer-green?style=for-the-badge" alt="Role">
+    <img src="https://img.shields.io/badge/System_Status-Online-green?style=for-the-badge&logo=git" alt="Status">
   </a>
   <a href="https://github.com/saahilpal">
-    <img src="https://img.shields.io/badge/Status-Building%20Synapse-orange?style=for-the-badge&logo=git" alt="Status">
+    <img src="https://img.shields.io/badge/Complexity-O(log%20n)-orange?style=for-the-badge" alt="Complexity">
   </a>
 </p>
 
 ---
 
-### 📡 SYSTEM DIAGNOSTICS
+### 📡 KERNEL DIAGNOSTICS
 <table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
       <pre>
-<b>$ synapse status --global</b>
-> [USER]: saahilpal
-> [BRANCH]: main (pioneer)
-> [UPTIME]: ∞
-> [CONTEXT]: 100% Deterministic
-> [ACTIVE]: Injecting reality into AI.
+<b>$ synapse --init --deep-scan</b>
+> [CORE]: Saahil Pal
+> [ROLE]: Software Architect
+> [FOCUS]: Context Engineering
+> [LEVEL]: Peak Creative
+> [MISSION]: Eliminating AI Hallucinations.
+> [STATUS]: Injecting Reality... [OK]
       </pre>
     </td>
     <td width="50%" valign="top">
       <pre>
-<b>$ leetsync --verify</b>
-> [SOLVED]: 500+ Algorithmic Challenges
-> [STREAK]: 🔥 Consistent Performance
-> [FOCUS]: Optimization & Efficiency
-> [RANK]: Top Tier Problem Solver
+<b>$ leetsync --audit --global</b>
+> [SOLVED]: 500+ Algorithmic Forge
+> [STREAK]: 🔥 Non-Stop Growth
+> [PATTERNS]: Master of Graphs & DP
+> [EFFICIENCY]: Optimized for Scalability
+> [RANK]: Top 5% Globally
+> [SIGNAL]: Continuous Deployment... [OK]
       </pre>
     </td>
   </tr>
@@ -46,60 +52,56 @@
 
 ---
 
-### 🧠 THE VISIONary ARCHITECT
-I don't just build applications; I build **intelligence scaffolding**. My mission is to solve the **"Hallucination Gap"** by engineering systems that bridge the void between raw codebases and LLM reasoning. I specialize in **Context Engineering**—ensuring AI agents operate with absolute ground truth.
+### 🧠 THE VISION: BRIDGING THE HALLUCINATION GAP
+I specialize in **Context Engineering**—the high-stakes intersection of **Systems Programming** and **Agentic AI**. My work is dedicated to ensuring that when an AI looks at a codebase, it sees the **Ground Truth**, not a probabilistic guess. I build the deterministic scaffolding that allows non-deterministic models to act with 100% precision.
 
 ---
 
-### 🚀 HIGH-IMPACT ENGINES (Bento Grid)
+### 🚀 FEATURED ENGINES (The Portfolio)
 
 <table align="center">
   <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/saahilpal/synapse">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=synapse&theme=tokyonight" alt="Synapse">
       </a>
-      <br><i>Deterministic Context Injection</i>
+      <br><b>SYNAPSE</b><br><i>Deterministic Context Daemon</i>
     </td>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=RAG-DOCAnalyzer&theme=tokyonight" alt="RAG-DOCAnalyzer">
       </a>
-      <br><i>Stateless Production RAG</i>
+      <br><b>DOC-ANALYZER</b><br><i>Stateless Production RAG</i>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/saahilpal/LeetSync">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=LeetSync&theme=tokyonight" alt="LeetSync">
       </a>
-      <br><i>Intelligence Pipeline Sync</i>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/saahilpal/leetcode">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=leetcode&theme=tokyonight" alt="LeetCode Forge">
-      </a>
-      <br><i>Algorithmic Mastery</i>
+      <br><b>LEETSYNC</b><br><i>Intelligence Pipeline</i>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📊 ANALYTICS DASHBOARD
+### 📊 INTELLIGENCE DASHBOARD (Live Metrics)
 
-<table align="center">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=saahilpal&theme=tokyonight&area=true&hide_border=true" alt="Activity Graph" width="100%">
+</p>
+
+<table align="center" width="100%">
   <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight" alt="GitHub Streak" width="100%">
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="100%">
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight" alt="Top Languages" width="100%">
+    <td colspan="2" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%">
     </td>
   </tr>
   <tr>
@@ -109,19 +111,41 @@ I don't just build applications; I build **intelligence scaffolding**. My missio
   </tr>
 </table>
 
----
-
-### 🛠️ CORE TECH STACK
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp,fastapi,react,nextjs,nodejs,pytorch,git,docker,aws,linux,postgres,sqlite" alt="Tech Stack">
+  <img src="https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
 </p>
 
 ---
 
-### 🤝 CONNECT & COLLABORATE
+### 🛠️ NEURAL TOOLKIT & SYSTEMS
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <b>Neural Engines</b><br>
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,flask" alt="AI/ML">
+    </td>
+    <td align="center" width="25%">
+      <b>Core Systems</b><br>
+      <img src="https://skillicons.dev/icons?i=py,ts,go,rust,cpp" alt="Systems">
+    </td>
+    <td align="center" width="25%">
+      <b>Infrastructure</b><br>
+      <img src="https://skillicons.dev/icons?i=git,docker,aws,linux,postgres,sqlite" alt="Infra">
+    </td>
+    <td align="center" width="25%">
+      <b>Surfaces</b><br>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind" alt="Web">
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📫 ESTABLISH CONNECTION
 <p align="center">
   <a href="https://linkedin.com/in/saahilpal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:saahilpal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://leetcode.com/saahilpal/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
 </p>
 
 <p align="center">
