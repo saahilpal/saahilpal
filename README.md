@@ -19,47 +19,65 @@
 
 ---
 
-### 🧠 The Philosophy
-I specialize in bridging the gap between static codebases and dynamic LLM reasoning. My work focuses on **Context Engineering**: ensuring AI agents operate with 100% ground truth, not just probabilistic guesses. I believe the future of AI development isn't just better models, but better **scaffolding** for those models to interact with reality.
+### 📡 System Status
+```zsh
+$ synapse status --global
+> [SYSTEM]: Saahil Pal
+> [BRANCH]: main (pioneer)
+> [CONTEXT]: 100% Deterministic
+> [MISSION]: Bridging the gap between static code and dynamic reasoning.
+> [ACTIVE]: Injecting reality into AI Agents.
+```
 
 ---
 
-### 🚀 Featured Work
+### 🧠 The Vision
+I don't just write code; I build **scaffolding for intelligence**. My work lives at the intersection of **Systems Programming** and **Agentic AI**. I am obsessed with **Context Engineering**—the art of ensuring that when an AI looks at a codebase, it sees the absolute truth, not a hallucination.
 
-| Project | Description | Tech |
-| :--- | :--- | :--- |
-| **[Synapse](https://github.com/saahilpal/synapse)** | The Deterministic Context Injector for AI Coding Agents. Injects reality into LLMs via MCP and Git-native tracking. | `Python`, `Tree-sitter`, `SQLite`, `MCP` |
-| **[RAG-DOCAnalyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)** | Production-grade stateless RAG system with FTS retrieval, SSE streaming, and a polished Next.js UI. | `Next.js`, `FastAPI`, `PostgreSQL`, `LLM` |
-| **[LeetSync](https://github.com/saahilpal/LeetSync)** | Automatically save LeetCode solutions to GitHub with full problem context, complexity analysis, and pattern tags. | `TypeScript`, `GitHub Actions`, `API` |
+> "The future of AI isn't just bigger models, it's better grounding."
 
 ---
 
-### 🛠️ Tech Stack & Expertise
+### 🚀 High-Impact Engines
 
 <table align="center">
   <tr>
-    <td align="center" width="33%">
-      <b>Languages</b><br><br>
-      <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp" alt="Languages">
+    <td width="50%">
+      <h4>🧠 <a href="https://github.com/saahilpal/synapse">Synapse</a></h4>
+      <p>The Deterministic Context Injector. A background daemon that mirrors Git state and pushes reality into AI agents via MCP.</p>
+      <code>Python</code> <code>Tree-sitter</code> <code>SQLite</code> <code>MCP</code>
     </td>
-    <td align="center" width="33%">
-      <b>Frameworks & AI</b><br><br>
-      <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,nodejs,pytorch" alt="Frameworks">
+    <td width="50%">
+      <h4>🔍 <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">RAG-DOCAnalyzer</a></h4>
+      <p>Production-grade stateless RAG system. FTS retrieval, SSE streaming, and a high-performance backend architecture.</p>
+      <code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>LLM</code>
     </td>
-    <td align="center" width="33%">
-      <b>Infrastructure</b><br><br>
-      <img src="https://skillicons.dev/icons?i=git,docker,aws,linux,postgres,sqlite" alt="Infrastructure">
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4>🔄 <a href="https://github.com/saahilpal/LeetSync">LeetSync</a></h4>
+      <p>Automated intelligence pipeline. Syncs LeetCode solutions with full context, complexity analysis, and pattern mapping.</p>
+      <code>TypeScript</code> <code>GitHub Actions</code> <code>API</code>
+    </td>
+    <td width="50%">
+      <h4>📊 <a href="https://github.com/saahilpal/leetcode">Algorithm Forge</a></h4>
+      <p>A deep-dive into complex data structures and algorithmic efficiency. 500+ problems solved with optimized logic.</p>
+      <code>C++</code> <code>Python</code> <code>Go</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📊 Performance & Growth
+### 🛠️ The Toolkit
 
 <p align="center">
-  <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp,fastapi,react,nextjs,nodejs,pytorch,git,docker,aws,linux,postgres,sqlite" alt="Tech Stack">
 </p>
+
+---
+
+### 📈 Evolution Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%">
@@ -70,9 +88,13 @@ I specialize in bridging the gap between static codebases and dynamic LLM reason
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight" alt="GitHub Streak" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
+</p>
+
 ---
 
-### 📫 Connect & Collaborate
+### 🤝 Let's Build the Future
 <p align="center">
   <a href="https://linkedin.com/in/saahilpal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
@@ -80,4 +102,8 @@ I specialize in bridging the gap between static codebases and dynamic LLM reason
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=saahilpal&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views">
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=20&section=footer" width="100%">
 </p>
