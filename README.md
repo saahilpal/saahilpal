@@ -109,20 +109,20 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
 
 ---
 
-### 🛠️ NEURAL TOOLKIT & SYSTEMS
+### 🛠️ VERIFIED TOOLKIT & SYSTEMS
 <table align="center" width="100%">
   <tr>
     <td align="center" width="25%">
-      <b>Neural Engines</b><br>
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,flask" alt="AI/ML">
+      <b>Neural Context</b><br>
+      <img src="https://skillicons.dev/icons?i=fastapi,openai,sqlite,postgres" alt="AI/ML">
     </td>
     <td align="center" width="25%">
-      <b>Core Systems</b><br>
-      <img src="https://skillicons.dev/icons?i=py,ts,go,rust,cpp" alt="Systems">
+      <b>Core Languages</b><br>
+      <img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp" alt="Languages">
     </td>
     <td align="center" width="25%">
-      <b>Infrastructure</b><br>
-      <img src="https://skillicons.dev/icons?i=git,docker,aws,linux,postgres,sqlite" alt="Infra">
+      <b>Architecture</b><br>
+      <img src="https://skillicons.dev/icons?i=git,githubactions,linux,bash" alt="Infra">
     </td>
     <td align="center" width="25%">
       <b>Surfaces</b><br>
