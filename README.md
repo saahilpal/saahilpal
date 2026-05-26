@@ -1,4 +1,5 @@
 # 👋 Hi, I'm Saahil Pal
+### Engineering Deterministic Systems for Non-Deterministic Minds
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=80&animation=fadeIn&fontAlignY=35" width="100%">
@@ -18,25 +19,48 @@
 
 ---
 
-### 🧠 LLM & AI Intelligence
-I am the creator of **[Synapse](https://github.com/saahilpal/synapse)**, a deterministic context injector for AI agents. I focus on bridging the gap between static codebases and dynamic LLM reasoning.
-
-- 🛠️ **Synapse**: Deterministic Git-native context for AI agents.
-- 🤖 **Agentic Workflows**: Building systems that allow LLMs to "see" code as it truly is.
-- 📉 **Context Optimization**: Mastering the 3-layer indexing strategy (Structural, Semantic, Behavioral).
+### 🧠 The Philosophy
+I specialize in bridging the gap between static codebases and dynamic LLM reasoning. My work focuses on **Context Engineering**: ensuring AI agents operate with 100% ground truth, not just probabilistic guesses. I believe the future of AI development isn't just better models, but better **scaffolding** for those models to interact with reality.
 
 ---
 
-### 💻 LeetCode & Problem Solving
-I love tackling complex algorithmic challenges. You can track my daily grind below:
+### 🚀 Featured Work
+
+| Project | Description | Tech |
+| :--- | :--- | :--- |
+| **[Synapse](https://github.com/saahilpal/synapse)** | A deterministic background daemon that mirrors Git state and injects exact contextual boundaries into AI agents via MCP. | `Python`, `Tree-sitter`, `SQLite`, `MCP` |
+| **[LiveWallpaper](https://github.com/saahilpal/LiveWallpaperMacOS)** | A high-performance, open-source live wallpaper application for macOS 14+, featuring a custom wallpaper engine. | `Swift`, `C++`, `Objective-C`, `Cmake` |
+| **[ClearTitle](https://github.com/saahilpal/cleartitle1)** | A modern web platform for property comparison and financial health visualization. | `Next.js`, `TypeScript`, `TailwindCSS` |
+
+---
+
+### 🛠️ Tech Stack & Expertise
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <b>Languages</b><br><br>
+      <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp" alt="Languages">
+    </td>
+    <td align="center" width="33%">
+      <b>Frameworks & AI</b><br><br>
+      <img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,nodejs,pytorch" alt="Frameworks">
+    </td>
+    <td align="center" width="33%">
+      <b>Infrastructure</b><br><br>
+      <img src="https://skillicons.dev/icons?i=git,docker,aws,linux,postgres,sqlite" alt="Infrastructure">
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 Performance & Growth
 
 <p align="center">
-  <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats">
+  <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
 </p>
 
----
-
-### 📊 GitHub Analytics
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight" alt="Top Languages" width="48%">
@@ -48,14 +72,7 @@ I love tackling complex algorithmic challenges. You can track my daily grind bel
 
 ---
 
-### 🛠️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp,fastapi,react,postgres,sqlite,git,docker,aws,linux" alt="Tech Stack">
-</p>
-
----
-
-### 📫 Connect with me
+### 📫 Connect & Collaborate
 <p align="center">
   <a href="https://linkedin.com/in/saahilpal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
