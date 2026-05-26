@@ -112,7 +112,7 @@ I specialize in **Context Engineering**—the high-stakes intersection of **Syst
 </table>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
+  <img src="https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%">
 </p>
 
 ---
@@ -141,12 +141,26 @@ I specialize in **Context Engineering**—the high-stakes intersection of **Syst
 
 ---
 
-### 📫 ESTABLISH CONNECTION
-<p align="center">
-  <a href="https://linkedin.com/in/saahilpal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:saahilpal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://leetcode.com/saahilpal/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
-</p>
+### 📡 ESTABLISH CONNECTION (Contact Protocol)
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://linkedin.com/in/saahilpal">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+    </td>
+    <td align="center">
+      <a href="mailto:saahilpal.dev@gmail.com">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://leetcode.com/saahilpal/">
+        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=saahilpal&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views">
