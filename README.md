@@ -56,7 +56,7 @@
 
 ---
 
-### 🧠 THE VISION: ELIMINATING THE HALLUCINATION GAP
+### 🧠 THE VISION: BRIDGING THE HALLUCINATION GAP
 I specialize in **Context Engineering**—the high-stakes intersection of **Systems Programming** and **Agentic AI**. My work is dedicated to building deterministic scaffolding for non-deterministic models. By mirroring Git states and injecting exact contextual boundaries, I ensure AI agents operate with 100% ground truth.
 
 ---
@@ -108,7 +108,7 @@ I specialize in **Context Engineering**—the high-stakes intersection of **Syst
 </table>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saahilpal/saahilpal/output/ocean.gif" alt="Snake Animation" width="100%">
+  <img src="https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%">
 </p>
 
 ---
