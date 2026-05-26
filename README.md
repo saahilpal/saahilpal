@@ -1,7 +1,7 @@
-# <p align="center">⚡ SAAHIL PAL | ARCHITECTING DETERMINISTIC INTELLIGENCE ⚡</p>
+# <p align="center">⚡ SAHIL PAL | ARCHITECTING DETERMINISTIC INTELLIGENCE ⚡</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Saahil%20Pal&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Context%20Architect&descSize=25&descAlignY=55" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Sahil%20Pal&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Context%20Architect&descSize=25&descAlignY=55" width="100%">
 </p>
 
 <p align="center">
@@ -29,17 +29,17 @@
       <pre>
 <b>$ gh profile status --real</b>
 > [USER]: saahilpal
+> [NAME]: Sahil Pal
 > [REPOS]: 20 Public Engines
 > [CONTRIBUTIONS]: 20+ Pull Requests
 > [UPTIME]: Active since Aug 2024
-> [FOCUS]: Context Engineering
 > [STATUS]: Pushing boundaries... [OK]
       </pre>
     </td>
     <td width="50%" valign="top">
       <pre>
 <b>$ synapse --monitor --global</b>
-> [CORE]: Saahil Pal
+> [CORE]: Sahil Pal
 > [ROLE]: Software Architect
 > [FOCUS]: Deterministic AI
 > [MISSION]: Eliminating Hallucinations
