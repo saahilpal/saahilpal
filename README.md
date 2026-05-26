@@ -137,7 +137,7 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://linkedin.com/in/saahilpal">
+      <a href="https://linkedin.com/in/sahiilpal">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
       </a>
     </td>
