@@ -62,29 +62,26 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
 <table align="center">
   <tr>
     <td width="33%" align="center">
-      <a href="https://github.com/saahilpal/synapse">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=synapse&theme=tokyonight" alt="Synapse">
-      </a>
-      <br><b>SYNAPSE</b><br><i>Deterministic Context Injection for AI Agents via MCP.</i>
+      <h4>🧠 <a href="https://github.com/saahilpal/synapse">Synapse</a></h4>
+      <p>Deterministic Context Injection for AI Agents via MCP.</p>
+      <code>Python</code> <code>Tree-sitter</code> <code>SQLite</code>
     </td>
     <td width="33%" align="center">
-      <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=RAG-DOCAnalyzer&theme=tokyonight" alt="RAG-DOCAnalyzer">
-      </a>
-      <br><b>DOC-ANALYZER</b><br><i>Stateless RAG system with FTS and SSE streaming.</i>
+      <h4>🔍 <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">DocAnalyzer</a></h4>
+      <p>Stateless RAG system with FTS and SSE streaming.</p>
+      <code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code>
     </td>
     <td width="33%" align="center">
-      <a href="https://github.com/saahilpal/LeetSync">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=LeetSync&theme=tokyonight" alt="LeetSync">
-      </a>
-      <br><b>LEETSYNC</b><br><i>Automated intelligence pipeline for algorithmic mastery.</i>
+      <h4>🔄 <a href="https://github.com/saahilpal/LeetSync">LeetSync</a></h4>
+      <p>Automated intelligence pipeline for algorithmic mastery.</p>
+      <code>TypeScript</code> <code>Actions</code> <code>API</code>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📊 ANALYTICS DASHBOARD (Live Metrics)
+### 📊 INTELLIGENCE DASHBOARD (Live Metrics)
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=saahilpal&theme=tokyonight&area=true&hide_border=true" alt="Activity Graph" width="100%">
@@ -93,10 +90,10 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" width="100%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saahilpal&theme=tokyonight" alt="GitHub Stats" width="100%">
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="100%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saahilpal&theme=tokyonight" alt="Top Languages" width="100%">
     </td>
   </tr>
   <tr>
@@ -106,7 +103,7 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
+      <img src="https://leetcard.jacoblin.cool/saahilpal?theme=dark" alt="LeetCode Stats" width="100%">
     </td>
   </tr>
 </table>
