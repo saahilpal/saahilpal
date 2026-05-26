@@ -38,13 +38,13 @@
     </td>
     <td width="50%" valign="top">
       <pre>
-<b>$ leetsync audit --global</b>
-> [ALGO]: Solving Patterns @ Scale
-> [SOLUTIONS]: Automatically Synced
-> [STREAK]: Continuous Logic Growth
-> [PATTERNS]: Master of Graphs & DP
-> [EFFICIENCY]: Optimized Implementations
-> [SIGNAL]: Syncing solutions... [OK]
+<b>$ synapse --monitor --global</b>
+> [CORE]: Saahil Pal
+> [ROLE]: Software Architect
+> [FOCUS]: Deterministic AI
+> [MISSION]: Eliminating Hallucinations
+> [ENGINE]: Synapse Core v1.0
+> [SIGNAL]: Continuous Deployment... [OK]
       </pre>
     </td>
   </tr>
@@ -101,11 +101,6 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%">
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://leetcard.jacoblin.cool/saahilpal?theme=dark" alt="LeetCode Stats" width="100%">
-    </td>
-  </tr>
 </table>
 
 <p align="center">
@@ -144,11 +139,6 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
     <td align="center">
       <a href="https://linkedin.com/in/saahilpal">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://leetcode.com/saahilpal/">
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
       </a>
     </td>
   </tr>
