@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/saahilpal">
-    <img src="https://img.shields.io/badge/Focus-LLM%20Intelligence-blue?style=for-the-badge&logo=openai" alt="Focus">
+    <img src="https://img.shields.io/badge/Focus-Context%20Engineering-blue?style=for-the-badge&logo=openai" alt="Focus">
   </a>
   <a href="https://github.com/saahilpal">
     <img src="https://img.shields.io/badge/Role-Software%20Engineer-green?style=for-the-badge" alt="Role">
@@ -19,85 +19,109 @@
 
 ---
 
-### 📡 System Status
-```zsh
-$ synapse status --global
-> [SYSTEM]: Saahil Pal
+### 📡 SYSTEM DIAGNOSTICS
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <pre>
+<b>$ synapse status --global</b>
+> [USER]: saahilpal
 > [BRANCH]: main (pioneer)
+> [UPTIME]: ∞
 > [CONTEXT]: 100% Deterministic
-> [MISSION]: Bridging the gap between static code and dynamic reasoning.
-> [ACTIVE]: Injecting reality into AI Agents.
-```
-
----
-
-### 🧠 The Vision
-I don't just write code; I build **scaffolding for intelligence**. My work lives at the intersection of **Systems Programming** and **Agentic AI**. I am obsessed with **Context Engineering**—the art of ensuring that when an AI looks at a codebase, it sees the absolute truth, not a hallucination.
-
-> "The future of AI isn't just bigger models, it's better grounding."
-
----
-
-### 🚀 High-Impact Engines
-
-<table align="center">
-  <tr>
-    <td width="50%">
-      <h4>🧠 <a href="https://github.com/saahilpal/synapse">Synapse</a></h4>
-      <p>The Deterministic Context Injector. A background daemon that mirrors Git state and pushes reality into AI agents via MCP.</p>
-      <code>Python</code> <code>Tree-sitter</code> <code>SQLite</code> <code>MCP</code>
+> [ACTIVE]: Injecting reality into AI.
+      </pre>
     </td>
-    <td width="50%">
-      <h4>🔍 <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">RAG-DOCAnalyzer</a></h4>
-      <p>Production-grade stateless RAG system. FTS retrieval, SSE streaming, and a high-performance backend architecture.</p>
-      <code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>LLM</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h4>🔄 <a href="https://github.com/saahilpal/LeetSync">LeetSync</a></h4>
-      <p>Automated intelligence pipeline. Syncs LeetCode solutions with full context, complexity analysis, and pattern mapping.</p>
-      <code>TypeScript</code> <code>GitHub Actions</code> <code>API</code>
-    </td>
-    <td width="50%">
-      <h4>📊 <a href="https://github.com/saahilpal/leetcode">Algorithm Forge</a></h4>
-      <p>A deep-dive into complex data structures and algorithmic efficiency. 500+ problems solved with optimized logic.</p>
-      <code>C++</code> <code>Python</code> <code>Go</code>
+    <td width="50%" valign="top">
+      <pre>
+<b>$ leetsync --verify</b>
+> [SOLVED]: 500+ Algorithmic Challenges
+> [STREAK]: 🔥 Consistent Performance
+> [FOCUS]: Optimization & Efficiency
+> [RANK]: Top Tier Problem Solver
+      </pre>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ The Toolkit
+### 🧠 THE VISIONary ARCHITECT
+I don't just build applications; I build **intelligence scaffolding**. My mission is to solve the **"Hallucination Gap"** by engineering systems that bridge the void between raw codebases and LLM reasoning. I specialize in **Context Engineering**—ensuring AI agents operate with absolute ground truth.
 
+---
+
+### 🚀 HIGH-IMPACT ENGINES (Bento Grid)
+
+<table align="center">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/saahilpal/synapse">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=synapse&theme=tokyonight" alt="Synapse">
+      </a>
+      <br><i>Deterministic Context Injection</i>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/saahilpal/RAG-DOCAnalyzer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=RAG-DOCAnalyzer&theme=tokyonight" alt="RAG-DOCAnalyzer">
+      </a>
+      <br><i>Stateless Production RAG</i>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/saahilpal/LeetSync">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=LeetSync&theme=tokyonight" alt="LeetSync">
+      </a>
+      <br><i>Intelligence Pipeline Sync</i>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/saahilpal/leetcode">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=saahilpal&repo=leetcode&theme=tokyonight" alt="LeetCode Forge">
+      </a>
+      <br><i>Algorithmic Mastery</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 ANALYTICS DASHBOARD
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight" alt="GitHub Streak" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight" alt="Top Languages" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ CORE TECH STACK
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,cpp,fastapi,react,nextjs,nodejs,pytorch,git,docker,aws,linux,postgres,sqlite" alt="Tech Stack">
 </p>
 
 ---
 
-### 📈 Evolution Metrics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&theme=tokyonight" alt="Top Languages" width="48%">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saahilpal&theme=tokyonight" alt="GitHub Streak" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://leetcode-stats-six.vercel.app/?username=saahilpal&theme=dark" alt="LeetCode Stats" width="100%">
-</p>
-
----
-
-### 🤝 Let's Build the Future
+### 🤝 CONNECT & COLLABORATE
 <p align="center">
   <a href="https://linkedin.com/in/saahilpal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:saahilpal.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p align="center">
