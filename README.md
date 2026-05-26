@@ -28,9 +28,9 @@ I specialize in bridging the gap between static codebases and dynamic LLM reason
 
 | Project | Description | Tech |
 | :--- | :--- | :--- |
-| **[Synapse](https://github.com/saahilpal/synapse)** | A deterministic background daemon that mirrors Git state and injects exact contextual boundaries into AI agents via MCP. | `Python`, `Tree-sitter`, `SQLite`, `MCP` |
-| **[LiveWallpaper](https://github.com/saahilpal/LiveWallpaperMacOS)** | A high-performance, open-source live wallpaper application for macOS 14+, featuring a custom wallpaper engine. | `Swift`, `C++`, `Objective-C`, `Cmake` |
-| **[ClearTitle](https://github.com/saahilpal/cleartitle1)** | A modern web platform for property comparison and financial health visualization. | `Next.js`, `TypeScript`, `TailwindCSS` |
+| **[Synapse](https://github.com/saahilpal/synapse)** | The Deterministic Context Injector for AI Coding Agents. Injects reality into LLMs via MCP and Git-native tracking. | `Python`, `Tree-sitter`, `SQLite`, `MCP` |
+| **[RAG-DOCAnalyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)** | Production-grade stateless RAG system with FTS retrieval, SSE streaming, and a polished Next.js UI. | `Next.js`, `FastAPI`, `PostgreSQL`, `LLM` |
+| **[LeetSync](https://github.com/saahilpal/LeetSync)** | Automatically save LeetCode solutions to GitHub with full problem context, complexity analysis, and pattern tags. | `TypeScript`, `GitHub Actions`, `API` |
 
 ---
 
