@@ -30,7 +30,7 @@
 <b>$ gh profile status --real</b>
 > [USER]: saahilpal
 > [NAME]: Sahil Pal
-> [REPOS]: 20 Public Engines
+> [REPOS]: 20 Public Projects
 > [CONTRIBUTIONS]: 20+ Pull Requests
 > [UPTIME]: Active since Aug 2024
 > [STATUS]: Pushing boundaries... [OK]
@@ -109,27 +109,10 @@ I specialize in **Context Engineering**—the intersection of **Systems Programm
 
 ---
 
-### 🛠️ VERIFIED TOOLKIT & SYSTEMS
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="25%">
-      <b>Neural Context</b><br>
-      <img src="https://skillicons.dev/icons?i=fastapi,openai,sqlite,postgres" alt="AI/ML">
-    </td>
-    <td align="center" width="25%">
-      <b>Core Languages</b><br>
-      <img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp" alt="Languages">
-    </td>
-    <td align="center" width="25%">
-      <b>Architecture</b><br>
-      <img src="https://skillicons.dev/icons?i=git,githubactions,linux,bash" alt="Infra">
-    </td>
-    <td align="center" width="25%">
-      <b>Surfaces</b><br>
-      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind" alt="Web">
-    </td>
-  </tr>
-</table>
+### 🛠️ AUTHENTIC TOOLKIT & SYSTEMS
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,nextjs,react,nodejs,tailwind,postgres,sqlite,git,githubactions" alt="Tech Stack">
+</p>
 
 ---
 
