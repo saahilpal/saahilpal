@@ -1,14 +1,22 @@
 # Sahil Pal
-**BCA student shipping production-grade developer tooling.**
-
-I build local developer tools, asynchronous data pipelines, and database-grounded RAG systems. Currently a Bachelor of Computer Applications (BCA) student, my work centers on context engineering and systems programming—eliminating model hallucinations through deterministic scaffolding. I write clean, type-strict code and ship tools designed to run entirely locally.
+![Sahil Pal DevOS Banner](banner.svg)
 
 ---
 
-## Flagship Engine: [Synapse](https://github.com/saahilpal/synapse)
-**Git-aware structural context engine for AI coding agents.**
+### [SYS_DIAGNOSTICS]
+```
+[DAEMON] Status: ACTIVE (Online since August 2024)
+[ROLE] Software Engineer & Context Infrastructure Builder
+[ACADEMIC] BCA Student @ Kristu Jayanti College, Bengaluru (2023 - 2026)
+[FOCUS] Context Engineering & Systems Scaffolding
+```
 
-Synapse is a local background daemon that tracks your Git state and proactively feeds exact contextual boundaries to AI coding agents.
+---
+
+## ⚡ Flagship Engine: [Synapse](https://github.com/saahilpal/synapse)
+**Git-aware persistent context injector for AI coding agents.**
+
+Synapse is a local-first system daemon written in Python that mirrors Git state in real-time to inject exact, token-bounded codebase structural boundaries into LLM coding contexts.
 
 [![PyPI version](https://img.shields.io/pypi/v/synap-git?color=3b82f6&style=flat-square)](https://pypi.org/project/synap-git/)
 [![Python Version](https://img.shields.io/pypi/pyversions/synap-git?style=flat-square)](https://pypi.org/project/synap-git/)
@@ -58,11 +66,9 @@ Synapse is a local background daemon that tracks your Git state and proactively 
 * **Tiktoken Context Packing:** High-performance tokenizer integration prioritizing local graph context within budget limits.
 * **MCP Integration:** Serves code-graph context and memory states directly to coding agents via stdio.
 
-*The codebase is fully tested under `tests/`, benchmarked under `benchmarks/`, and evaluated under `evals/`.*
-
 ---
 
-## Production Projects
+## 🛠️ Production Systems
 
 * **[RAG-DOCAnalyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)**: Chat-first document Q&A workspace built with Next.js, Express, PostgreSQL (`pgvector`), and Google Gemini. Implements optimistic UI, SHA-256 PDF deduplication, Supabase Storage, and a database-backed worker queue (`FOR UPDATE SKIP LOCKED`) with fallback from vector search to lexical FTS.
 * **[LeetSync](https://github.com/saahilpal/LeetSync)**: A Manifest V3 Chrome extension built with TypeScript and Vite. Captures LeetCode editor content and complexity analysis, organizing and syncing solutions directly into a GitHub directory structure via the Contents API.
@@ -70,16 +76,19 @@ Synapse is a local background daemon that tracks your Git state and proactively 
 
 ---
 
-## Profile Analytics
-* **GitHub Uptime:** Active contributor since August 2024.
-* **Achievements:** Pull Shark (x2), YOLO.
-* **Stats:** 2 Followers (early stage).
+## 📊 Developer Metrics
+```
+[STATISTICS]
+-> Followers   : 2 (early stage)
+-> Repositories : 20 Public
+-> Achievements: Pull Shark (x2), YOLO
+```
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=radical&hide_border=true)](https://github.com/saahilpal)
 
 ---
 
-## Links
+## 📡 Terminal Connect
 * **Web Portfolio:** [sahil-pal-portfolio-d147.vercel.app](https://sahil-pal-portfolio-d147.vercel.app/)
 * **LinkedIn:** [linkedin.com/in/sahiilpal](https://www.linkedin.com/in/sahiilpal)
 * **PyPI Package:** [pypi.org/project/synap-git](https://pypi.org/project/synap-git/)
