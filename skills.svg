@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="100%" height="260" style="background:#050505; font-family:'Courier New', Courier, monospace; border-radius: 8px;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="neon-green-fade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d1ff"/>
+      <stop offset="100%" stop-color="#005577"/>
+    </linearGradient>
+    <linearGradient id="green-glow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41"/>
+      <stop offset="100%" stop-color="#005511"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-heavy" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-light" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Keyframes for loading animations */
+    @keyframes bar-sys { from { width: 0px; } to { width: 190px; } }
+    @keyframes bar-lang { from { width: 0px; } to { width: 180px; } }
+    @keyframes bar-back { from { width: 0px; } to { width: 176px; } }
+    @keyframes bar-db { from { width: 0px; } to { width: 170px; } }
+    @keyframes bar-ui { from { width: 0px; } to { width: 150px; } }
+    
+    @keyframes radar-breathe {
+      0%, 100% { transform: scale(1); transform-origin: 120px 130px; }
+      50% { transform: scale(1.02); transform-origin: 120px 130px; filter: hue-rotate(15deg); }
+    }
+    
+    @keyframes node-pulse {
+      0%, 100% { r: 3.5px; opacity: 0.8; }
+      50% { r: 5px; opacity: 1; }
+    }
+
+    /* Animation Classes */
+    .b-sys { animation: bar-sys 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .b-lang { animation: bar-lang 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .b-back { animation: bar-back 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .b-db { animation: bar-db 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .b-ui { animation: bar-ui 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    
+    .radar-polygon {
+      animation: radar-breathe 6s ease-in-out infinite;
+    }
+    .radar-node {
+      animation: node-pulse 2s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="0" y="0" width="800" height="260" rx="6" fill="#080808" stroke="#1f2937" stroke-width="1.5"/>
+
+  <!-- Radar Graph Container (Left) -->
+  <g transform="translate(0, 0)">
+    <!-- Radial grid lines (Level 25, 50, 75, 100) -->
+    <polygon points="120,108.75 140.2,123.4 132.5,147.2 107.5,147.2 99.8,123.4" fill="none" stroke="#222" stroke-width="0.75" stroke-dasharray="2 2"/>
+    <polygon points="120,87.5 160.4,116.9 145.0,164.4 95.0,164.4 79.6,116.9" fill="none" stroke="#222" stroke-width="0.75" stroke-dasharray="2 2"/>
+    <polygon points="120,66.25 180.6,110.3 157.5,181.6 82.5,181.6 59.4,110.3" fill="none" stroke="#222" stroke-width="0.75" stroke-dasharray="2 2"/>
+    <polygon points="120,45 200.8,103.7 170,198.8 70,198.8 39.2,103.7" fill="none" stroke="#333" stroke-width="1"/>
+
+    <!-- Axis lines -->
+    <line x1="120" y1="130" x2="120" y2="45" stroke="#333" stroke-width="0.75"/>
+    <line x1="120" y1="130" x2="200.8" y2="103.7" stroke="#333" stroke-width="0.75"/>
+    <line x1="120" y1="130" x2="170" y2="198.8" stroke="#333" stroke-width="0.75"/>
+    <line x1="120" y1="130" x2="70" y2="198.8" stroke="#333" stroke-width="0.75"/>
+    <line x1="120" y1="130" x2="39.2" y2="103.7" stroke="#333" stroke-width="0.75"/>
+
+    <!-- Axis Labels -->
+    <text x="120" y="38" fill="#555" font-size="7" text-anchor="middle" font-weight="bold">SYSTEMS (95%)</text>
+    <text x="210" y="103" fill="#555" font-size="7" text-anchor="start" font-weight="bold">BACKEND (88%)</text>
+    <text x="180" y="210" fill="#555" font-size="7" text-anchor="start" font-weight="bold">UI &amp; TOOLS (75%)</text>
+    <text x="60" y="210" fill="#555" font-size="7" text-anchor="end" font-weight="bold">DATABASES (85%)</text>
+    <text x="30" y="103" fill="#555" font-size="7" text-anchor="end" font-weight="bold">LANGUAGES (90%)</text>
+
+    <!-- Breathing radar polygon -->
+    <polygon points="120,49.25 191.13,106.89 157.48,181.57 77.52,188.45 47.25,106.36" fill="url(#neon-green-fade)" stroke="#00ff41" stroke-width="1.5" class="radar-polygon" filter="url(#glow-heavy)"/>
+
+    <!-- Radar Nodes -->
+    <circle cx="120" cy="49.25" r="3.5" fill="#00ff41" class="radar-node"/>
+    <circle cx="191.13" cy="106.89" r="3.5" fill="#00ff41" class="radar-node"/>
+    <circle cx="157.48" cy="181.57" r="3.5" fill="#00ff41" class="radar-node"/>
+    <circle cx="77.52" cy="188.45" r="3.5" fill="#00ff41" class="radar-node"/>
+    <circle cx="47.25" cy="106.36" r="3.5" fill="#00ff41" class="radar-node"/>
+    
+    <!-- Title HUD -->
+    <text x="25" y="240" fill="#00ff41" font-size="8" font-weight="bold">// COGNITIVE_CAPABILITY_INDEX</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="240" y1="15" x2="240" y2="245" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Skills Matrix HUD Details (Right) -->
+  <g transform="translate(255, 10)">
+    
+    <!-- SYSTEMS -->
+    <g transform="translate(0, 15)">
+      <text x="0" y="10" fill="#00ff41" font-size="9" font-weight="bold">SYS.INTEGRATION</text>
+      <!-- Background Bar -->
+      <rect x="120" y="1" width="200" height="9" fill="#121212" rx="2" stroke="#222" stroke-width="0.5"/>
+      <!-- Loaded Bar -->
+      <rect x="120" y="1" width="190" height="9" fill="url(#green-glow-grad)" rx="2" class="b-sys" filter="url(#glow-light)"/>
+      <text x="330" y="9" fill="#00ff41" font-size="9" font-weight="bold">95%</text>
+      <text x="0" y="24" fill="#a1a1aa" font-size="8">Vert.x | SQLite (WAL+FTS5) | Tree-sitter AST | MCP Server Daemon</text>
+    </g>
+    
+    <!-- LANGUAGES -->
+    <g transform="translate(0, 60)">
+      <text x="0" y="10" fill="#ededed" font-size="9" font-weight="bold">LANGUAGES</text>
+      <!-- Background Bar -->
+      <rect x="120" y="1" width="200" height="9" fill="#121212" rx="2" stroke="#222" stroke-width="0.5"/>
+      <!-- Loaded Bar -->
+      <rect x="120" y="1" width="180" height="9" fill="#ededed" rx="2" class="b-lang"/>
+      <text x="330" y="9" fill="#ededed" font-size="9" font-weight="bold">90%</text>
+      <text x="0" y="24" fill="#a1a1aa" font-size="8">Java 17 | C++ (DSA Library) | TypeScript | SQL | Python</text>
+    </g>
+
+    <!-- BACKEND -->
+    <g transform="translate(0, 105)">
+      <text x="0" y="10" fill="#00d1ff" font-size="9" font-weight="bold">BACKEND.APIs</text>
+      <!-- Background Bar -->
+      <rect x="120" y="1" width="200" height="9" fill="#121212" rx="2" stroke="#222" stroke-width="0.5"/>
+      <!-- Loaded Bar -->
+      <rect x="120" y="1" width="176" height="9" fill="url(#cyan-glow)" rx="2" class="b-back" filter="url(#glow-light)"/>
+      <text x="330" y="9" fill="#00d1ff" font-size="9" font-weight="bold">88%</text>
+      <text x="0" y="24" fill="#a1a1aa" font-size="8">Asynchronous Event loops | REST APIs | JWT | SSE Stream delivery</text>
+    </g>
+
+    <!-- DATABASES -->
+    <g transform="translate(0, 150)">
+      <text x="0" y="10" fill="#8b5cf6" font-size="9" font-weight="bold">DATA.STORAGE</text>
+      <!-- Background Bar -->
+      <rect x="120" y="1" width="200" height="9" fill="#121212" rx="2" stroke="#222" stroke-width="0.5"/>
+      <!-- Loaded Bar -->
+      <rect x="120" y="1" width="170" height="9" fill="#8b5cf6" rx="2" class="b-db"/>
+      <text x="330" y="9" fill="#8b5cf6" font-size="9" font-weight="bold">85%</text>
+      <text x="0" y="24" fill="#a1a1aa" font-size="8">PostgreSQL | pgvector | MongoDB | Redis (Token Blacklists)</text>
+    </g>
+
+    <!-- UI & TOOLS -->
+    <g transform="translate(0, 195)">
+      <text x="0" y="10" fill="#a1a1aa" font-size="9" font-weight="bold">UI &amp; INTERFACE</text>
+      <!-- Background Bar -->
+      <rect x="120" y="1" width="200" height="9" fill="#121212" rx="2" stroke="#222" stroke-width="0.5"/>
+      <!-- Loaded Bar -->
+      <rect x="120" y="1" width="150" height="9" fill="#555" rx="2" class="b-ui"/>
+      <text x="330" y="9" fill="#a1a1aa" font-size="9" font-weight="bold">75%</text>
+      <text x="0" y="24" fill="#a1a1aa" font-size="8">Next.js 16 | React 19 | Tailwind CSS v4 | Chrome Extension MV3</text>
+    </g>
+
+  </g>
+</svg>

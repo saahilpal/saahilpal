@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="380" style="background:#050505; font-family:'Courier New', Courier, monospace; border-radius: 8px;">
+  <defs>
+    <!-- Glowing Green Filter -->
+    <filter id="glow-green" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- Glowing Blue Filter -->
+    <filter id="glow-blue" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations */
+    @keyframes flow-left {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes flow-right {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 40; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    @keyframes hover-card {
+      0%, 100% { stroke-opacity: 0.2; }
+      50% { stroke-opacity: 0.5; }
+    }
+
+    .f-line-green {
+      stroke: #00ff41;
+      stroke-dasharray: 6 6;
+      animation: flow-left 2s linear infinite;
+    }
+    .f-line-blue {
+      stroke: #00d1ff;
+      stroke-dasharray: 6 6;
+      animation: flow-right 2s linear infinite;
+    }
+    .status-dot {
+      animation: blink 1.5s steps(1) infinite;
+    }
+    .card-border {
+      stroke-opacity: 0.2;
+      animation: hover-card 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="0" y="0" width="800" height="380" rx="6" fill="#080808" stroke="#1f2937" stroke-width="1.5"/>
+
+  <!-- TITLE HUD -->
+  <text x="20" y="30" fill="#00ff41" font-size="10" font-weight="bold">// SYSTEM_ARCHITECTURE_BLUEPRINTS</text>
+
+  <!-- ================= LEFT CARD: SYNAPSE ENGINE ================= -->
+  <g transform="translate(20, 50)">
+    <!-- Card Frame -->
+    <rect x="0" y="0" width="370" height="310" rx="6" fill="#0c0c0c" stroke="#00ff41" stroke-width="1" class="card-border"/>
+    
+    <!-- Header -->
+    <text x="15" y="25" fill="#00ff41" font-size="12" font-weight="bold">SYNAPSE [L1-L3 CORE DAEMON]</text>
+    <text x="15" y="42" fill="#555" font-size="8">GIT-AWARE PERSISTENT CONTEXT INJECTOR</text>
+    
+    <!-- Status Indicator -->
+    <circle cx="340" cy="21" r="3.5" fill="#00ff41" class="status-dot" filter="url(#glow-green)"/>
+    <text x="330" y="24" fill="#00ff41" font-size="7" text-anchor="end">v1.2.3 [PYPI]</text>
+
+    <!-- Component Map Layout -->
+    <!-- Git Repository Block -->
+    <rect x="20" y="70" width="80" height="30" rx="3" fill="#121212" stroke="#222"/>
+    <text x="60" y="88" fill="#ededed" font-size="9" text-anchor="middle">Git Hook</text>
+
+    <!-- Indexer Engine Block -->
+    <rect x="145" y="70" width="80" height="30" rx="3" fill="#121212" stroke="#222"/>
+    <text x="185" y="88" fill="#ededed" font-size="9" text-anchor="middle">Tree-Sitter</text>
+
+    <!-- SQLite WAL Storage Block -->
+    <rect x="270" y="70" width="80" height="30" rx="3" fill="#121212" stroke="#222"/>
+    <text x="310" y="88" fill="#ededed" font-size="9" text-anchor="middle">SQLite WAL</text>
+
+    <!-- Flow paths row 1 -->
+    <path d="M 100 85 L 145 85" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 100 85 L 145 85" fill="none" class="f-line-green"/>
+
+    <path d="M 225 85 L 270 85" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 225 85 L 270 85" fill="none" class="f-line-green"/>
+
+    <!-- L2 Wiki Summaries -->
+    <rect x="80" y="140" width="95" height="35" rx="3" fill="#121212" stroke="#222"/>
+    <text x="127.5" y="157" fill="#00ff41" font-size="8" text-anchor="middle">L2 Wiki Summaries</text>
+    <text x="127.5" y="167" fill="#555" font-size="7" text-anchor="middle">Asynchronous MD</text>
+
+    <!-- L3 Failures Cache -->
+    <rect x="195" y="140" width="95" height="35" rx="3" fill="#121212" stroke="#222"/>
+    <text x="242.5" y="157" fill="#00ff41" font-size="8" text-anchor="middle">L3 Memory Graph</text>
+    <text x="242.5" y="167" fill="#555" font-size="7" text-anchor="middle">Failure Log Index</text>
+
+    <!-- Connections to Wiki/Failures -->
+    <path d="M 185 100 L 185 120 L 130 120 L 130 140" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 185 100 L 185 120 L 130 120 L 130 140" fill="none" class="f-line-green"/>
+
+    <path d="M 185 100 L 185 120 L 240 120 L 240 140" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 185 100 L 185 120 L 240 120 L 240 140" fill="none" class="f-line-green"/>
+
+    <!-- MCP Gateway Block (L3) -->
+    <rect x="110" y="210" width="150" height="35" rx="3" fill="#161b22" stroke="#238636" stroke-width="1"/>
+    <text x="185" y="227" fill="#00ff41" font-size="9" text-anchor="middle" font-weight="bold">MCP Gateway (Stdio)</text>
+    <text x="185" y="238" fill="#8b949e" font-size="7" text-anchor="middle">Context Provider for AI Agents</text>
+
+    <!-- Flow into MCP -->
+    <path d="M 127.5 175 L 127.5 195 L 185 195 L 185 210" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 127.5 175 L 127.5 195 L 185 195 L 185 210" fill="none" class="f-line-green"/>
+
+    <path d="M 242.5 175 L 242.5 195 L 185 195 L 185 210" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M 242.5 175 L 242.5 195 L 185 195 L 185 210" fill="none" class="f-line-green"/>
+
+    <!-- Details Box -->
+    <rect x="20" y="260" width="330" height="35" rx="3" fill="#060606" stroke="#222"/>
+    <text x="30" y="273" fill="#a1a1aa" font-size="8">L1 Multi-threaded Indexer + Tiktoken packing bounds context.</text>
+    <text x="30" y="285" fill="#a1a1aa" font-size="8">Real-time local file event watcher tracks modifications.</text>
+  </g>
+
+  <!-- ================= RIGHT CARD: PRODUCTION SERVICES ================= -->
+  <g transform="translate(410, 50)">
+    <!-- Card Frame -->
+    <rect x="0" y="0" width="370" height="310" rx="6" fill="#0c0c0c" stroke="#00d1ff" stroke-width="1" class="card-border"/>
+
+    <!-- Header -->
+    <text x="15" y="25" fill="#00d1ff" font-size="12" font-weight="bold">PRODUCTION WORKSPACE WIDGETS</text>
+    <text x="15" y="42" fill="#555" font-size="8">DEPLOYED EVENT-DRIVEN WEB SERVICES</text>
+
+    <!-- Status Indicator -->
+    <circle cx="340" cy="21" r="3.5" fill="#00d1ff" class="status-dot" filter="url(#glow-blue)"/>
+    <text x="330" y="24" fill="#00d1ff" font-size="7" text-anchor="end">SYS_STABLE</text>
+
+    <!-- RAG-DOCAnalyzer Box -->
+    <g transform="translate(15, 60)">
+      <rect x="0" y="0" width="340" height="105" rx="4" fill="#121212" stroke="#222"/>
+      <text x="15" y="20" fill="#00d1ff" font-size="10" font-weight="bold">RAG-DOCAnalyzer (Next.js + Express)</text>
+      <text x="15" y="35" fill="#888" font-size="8">Multi-document chat engine powered by pgvector &amp; Gemini</text>
+      
+      <!-- Graphic Diagram -->
+      <!-- PDF Upload -->
+      <rect x="15" y="55" width="65" height="22" rx="2" fill="#070707" stroke="#333"/>
+      <text x="47.5" y="69" fill="#a1a1aa" font-size="7" text-anchor="middle">PDF Upload</text>
+
+      <!-- Worker Queue -->
+      <rect x="110" y="55" width="105" height="22" rx="2" fill="#070707" stroke="#333"/>
+      <text x="162.5" y="69" fill="#00d1ff" font-size="7" text-anchor="middle" font-weight="bold">PostgreSQL Queue</text>
+
+      <!-- pgvector DB -->
+      <rect x="245" y="55" width="80" height="22" rx="2" fill="#070707" stroke="#238636"/>
+      <text x="285" y="69" fill="#00ff41" font-size="7" text-anchor="middle">pgvector Store</text>
+
+      <!-- Connection lines -->
+      <path d="M 80 66 L 110 66" fill="none" stroke="#222" stroke-width="1.5"/>
+      <path d="M 80 66 L 110 66" fill="none" class="f-line-blue"/>
+      
+      <path d="M 215 66 L 245 66" fill="none" stroke="#222" stroke-width="1.5"/>
+      <path d="M 215 66 L 245 66" fill="none" class="f-line-blue"/>
+
+      <text x="15" y="93" fill="#555" font-size="7">Features asynchronous 'FOR UPDATE SKIP LOCKED' database workers.</text>
+    </g>
+
+    <!-- LeetSync Box -->
+    <g transform="translate(15, 185)">
+      <rect x="0" y="0" width="340" height="105" rx="4" fill="#121212" stroke="#222"/>
+      <text x="15" y="20" fill="#00d1ff" font-size="10" font-weight="bold">LeetSync Extension (TS + MV3 + Vite)</text>
+      <text x="15" y="35" fill="#888" font-size="8">Automated algorithmic sync tool committing DSA stats to Git</text>
+
+      <!-- Extension flow graphic -->
+      <!-- LeetCode Editor -->
+      <rect x="15" y="55" width="85" height="22" rx="2" fill="#070707" stroke="#333"/>
+      <text x="57.5" y="69" fill="#a1a1aa" font-size="7" text-anchor="middle">LeetCode Tab</text>
+
+      <!-- Extension Engine -->
+      <rect x="130" y="55" width="80" height="22" rx="2" fill="#070707" stroke="#333"/>
+      <text x="170" y="69" fill="#00d1ff" font-size="7" text-anchor="middle" font-weight="bold">Shadow DOM Ext</text>
+
+      <!-- GitHub API -->
+      <rect x="240" y="55" width="85" height="22" rx="2" fill="#070707" stroke="#333"/>
+      <text x="282.5" y="69" fill="#ededed" font-size="7" text-anchor="middle">GitHub Commit</text>
+
+      <!-- Connection lines -->
+      <path d="M 100 66 L 130 66" fill="none" stroke="#222" stroke-width="1.5"/>
+      <path d="M 100 66 L 130 66" fill="none" class="f-line-blue"/>
+
+      <path d="M 210 66 L 240 66" fill="none" stroke="#222" stroke-width="1.5"/>
+      <path d="M 210 66 L 240 66" fill="none" class="f-line-blue"/>
+
+      <text x="15" y="93" fill="#555" font-size="7">Manifest V3 event script capturing submissions through API injections.</text>
+    </g>
+  </g>
+</svg>
