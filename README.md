@@ -73,6 +73,12 @@ A Manifest V3 Chrome extension built with TypeScript and Vite that captures Leet
 
 ---
 
+## 🌌 Contribution Galaxy
+
+![GitHub contribution grid snake animation](https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake.svg)
+
+---
+
 ## 📊 Developer Metrics
 ```
 [STATISTICS]
