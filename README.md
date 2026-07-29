@@ -1,98 +1,42 @@
 # Sahil Pal
 
-![Sahil Pal DevOS Banner](banner.svg)
+**Software Engineer | AI Systems & Backend Architecture**
+
+[Portfolio](https://sahil-pal-portfolio-d147.vercel.app/) • [LinkedIn](https://linkedin.com/in/sahiilpal) • [Email](mailto:saahilpal17@gmail.com)
 
 ---
 
-### [SYS_DIAGNOSTICS]
-```
-[DAEMON] Status: ACTIVE (Online since August 2024)
-[ROLE] Software Engineer & Context Infrastructure Builder
-[ACADEMIC] BCA Student @ Kristu Jayanti College, Bengaluru (2023 - 2026)
-[FOCUS] Context Engineering, Asynchronous Systems & AST Parsing
-```
+Software Engineer specializing in AI systems, backend architecture, and developer tooling. Experienced in designing production-grade Retrieval-Augmented Generation (RAG) pipelines, context engines for AI agents, and scalable REST APIs. Comfortable owning the full stack, from data ingestion to semantic retrieval and production deployment.
 
----
+### 🛠️ Technical Skills
 
-## 📡 Telemetry Console
+- **Languages:** Python, TypeScript, JavaScript, Java, C++, SQL
+- **AI & ML:** Generative AI, LLMs, RAG, AI Agents, Vector Search, Semantic Embeddings, Model Context Protocol (MCP), Gemini API
+- **Backend & Systems:** Node.js, Express, Next.js, REST APIs, Server-Sent Events (SSE), Worker Queues, Event-Driven Architecture
+- **Databases:** PostgreSQL, pgvector, SQLite (FTS5), MongoDB, Redis, Supabase
+- **Tools & Frameworks:** React, Tailwind CSS, Vite, Tree-sitter, Git, Docker, CI/CD
 
-This terminal displays verified daemon parameters, status nodes, and local configuration templates.
+### 🚀 Open Source & Projects
 
-![Developer Shell Console](terminal.svg)
+**[Synapse](https://github.com/saahilpal/synapse)** • *Python, SQLite, MCP, Tree-sitter*
+A structural context engine for AI agents. Features a Git-aware daemon that parses codebases into AST symbols and dependency graphs, and an MCP server that serves context-bounded summaries and semantically-ranked snippets to AI agents. Combines vector similarity search with SQLite FTS5 keyword search.
 
----
+**[RAG Doc Analyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)** • *Next.js, Express, PostgreSQL, pgvector, Gemini*
+A document Q&A AI Platform. Features a grounded RAG pipeline combining Gemini embeddings, `pgvector` similarity search, and PostgreSQL full-text fallback. Includes asynchronous document ingestion via PostgreSQL worker queues.
 
-## 🛠️ Capability Index & Technology Stack
+**[LeetSync](https://github.com/saahilpal/LeetSync)** • *TypeScript, Vite, Manifest V3*
+A Chrome extension that captures LeetCode editor content and automatically syncs submissions as structured Markdown notes to GitHub repositories using the Contents API.
 
-The matrix mapping below displays verified runtime capabilities, systems, databases, and frameworks.
+### 💼 Experience & Education
 
-![Capability Matrix](skills.svg)
+- **Software Engineering Intern** at Kristu Jayanti Software Development Centre (June 2025 - July 2025)
+  - Developed RESTful APIs in Java 17 with Vert.x. Implemented JWT-based authentication, RBAC, and MongoDB-backed asynchronous workflows.
+- **BCA** at Kristu Jayanti College, Bengaluru (2023 - 2026)
 
----
+### 📈 GitHub Stats
 
-## ⚡ System Architecture Blueprints
-
-Interactive flow diagrams charting data propagation across core projects and background worker pipelines.
-
-![Architecture Blueprints](projects.svg)
-
----
-
-## 📂 Core Engines
-
-### 1. [Synapse Engine](https://github.com/saahilpal/synapse) (Flagship)
-**Git-aware persistent context injector for AI coding agents.**
-Synapse is a local-first system daemon written in Python that mirrors Git state in real-time to inject exact, token-bounded codebase structural boundaries into LLM coding contexts.
-
-[![PyPI version](https://img.shields.io/pypi/v/synap-git?color=3b82f6&style=flat-square)](https://pypi.org/project/synap-git/)
-[![Python Version](https://img.shields.io/pypi/pyversions/synap-git?style=flat-square)](https://pypi.org/project/synap-git/)
-[![CI Status](https://github.com/saahilpal/synapse/actions/workflows/ci.yml/badge.svg)](https://github.com/saahilpal/synapse/actions)
-
-*   **L1 (Structural Graph):** Multi-threaded Tree-sitter parser that resolves imports and symbols into an SQLite dependency graph.
-*   **L2 (Semantic Wiki):** Asynchronous background worker that structures markdown summaries of files and modules.
-*   **L3 (Behavioral Memory):** Stored checkpoints, technical decisions, and failure lessons that persist through branch switches.
-*   **Tiktoken Context Packing:** High-performance tokenizer integration prioritizing local graph context within budget limits.
-*   **MCP Integration:** Serves code-graph context and memory states directly to coding agents via stdio.
-
----
-
-### 2. [RAG-DOCAnalyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)
-**Chat-first document Q&A workspace.**
-A chat-first workspace built with Next.js, Express, PostgreSQL (`pgvector`), and Google Gemini.
-*   **Ingestion Pipeline:** Integrates Multer uploads, SHA-256 file deduplication, and Supabase Storage buckets.
-*   **PostgreSQL Queue:** Designed a resilient async worker queue utilizing `FOR UPDATE SKIP LOCKED` for lock-free job extraction.
-*   **Vector Search:** Implements grounded pgvector cosine similarity search with fallback to PostgreSQL full-text search.
-
----
-
-### 3. [LeetSync](https://github.com/saahilpal/LeetSync)
-**Chrome extension for automated repository synchronization.**
-A Manifest V3 Chrome extension built with TypeScript and Vite that captures LeetCode submissions and syncs them automatically to Git.
-*   **DOM Capture:** Intercepts code payloads and problem complexity directly within the LeetCode active tab via popup + Shadow DOM injection.
-*   **contents API Sync:** Pushes structured Markdown folders directly to target GitHub repositories, automating daily workflow loops.
-
----
-
-## 🌌 Contribution Galaxy
-
-![GitHub contribution grid snake animation](https://raw.githubusercontent.com/saahilpal/saahilpal/output/github-contribution-grid-snake.svg)
-
----
-
-## 📊 Developer Metrics
-```
-[STATISTICS]
--> Followers   : 2 (early stage)
--> Repositories : 20 Public
--> Achievements: Pull Shark (x2), YOLO
-```
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&theme=radical&hide_border=true)](https://github.com/saahilpal)
-
----
-
-## 📡 Terminal Connect
-*   **Web Portfolio:** [sahil-pal-portfolio-d147.vercel.app](https://sahil-pal-portfolio-d147.vercel.app/)
-*   **LinkedIn:** [linkedin.com/in/sahiilpal](https://www.linkedin.com/in/sahiilpal)
-*   **PyPI Package:** [pypi.org/project/synap-git/](https://pypi.org/project/synap-git/)
-*   **LeetCode:** [leetcode.com/u/saahilpal17/](https://leetcode.com/u/saahilpal17/)
+<p align="left">
+  <a href="https://github.com/saahilpal">
+    <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&hide_border=true&theme=default&count_private=true" alt="Sahil's GitHub Stats" />
+  </a>
+</p>
