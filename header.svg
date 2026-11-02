@@ -60,9 +60,9 @@
 
   <!-- Live Status Chip (Right) -->
   <g transform="translate(0, 0)">
-    <rect x="635" y="14" width="180" height="22" rx="11" fill="#1f242c" stroke="#30363d" stroke-width="1"/>
-    <circle cx="649" cy="25" r="3.5" fill="#22c55e" class="pulse" filter="url(#glow)"/>
-    <text x="659" y="29" fill="#c9d1d9" font-size="10.5" class="mono" font-weight="500">building AI systems</text>
+    <rect x="655" y="14" width="160" height="22" rx="11" fill="#1f242c" stroke="#30363d" stroke-width="1"/>
+    <circle cx="669" cy="25" r="3.5" fill="#22c55e" class="pulse" filter="url(#glow)"/>
+    <text x="679" y="29" fill="#c9d1d9" font-size="10.5" class="mono" font-weight="500">building &amp; learning</text>
   </g>
 
   <!-- Divider Line -->
@@ -74,10 +74,10 @@
     <text x="0" y="32" fill="url(#text-grad)" font-size="34" font-weight="700" letter-spacing="-0.8px" class="sans">Sahil Pal</text>
     
     <!-- Role & Thesis -->
-    <text x="0" y="60" fill="url(#accent-cyan)" font-size="14.5" font-weight="600" letter-spacing="-0.2px" class="sans">AI Systems Engineer • Context Architecture &amp; Deterministic Tooling</text>
+    <text x="0" y="60" fill="url(#accent-cyan)" font-size="15" font-weight="600" letter-spacing="-0.2px" class="sans">Software Engineer • Bengaluru, India</text>
 
     <!-- Bio Statement -->
-    <text x="0" y="86" fill="#8b949e" font-size="13" font-weight="400" class="sans">Designing deterministic context engines, AST-level code intelligence, and privacy-first edge infrastructure.</text>
+    <text x="0" y="86" fill="#8b949e" font-size="13" font-weight="400" class="sans">Building context engines for AI agents, backend systems, and developer tools.</text>
   </g>
 
   <!-- Bottom Pills / Tags -->
