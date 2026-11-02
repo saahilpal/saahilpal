@@ -95,13 +95,13 @@
     <text x="15" y="95" class="term-text o2-1" fill="#00d1ff">{</text>
     <text x="15" y="107" class="term-text o2-2" fill="#00d1ff">  "mcpServers": {</text>
     <text x="15" y="119" class="term-text o2-3" fill="#00d1ff">    "synap": {</text>
-    <text x="15" y="131" class="term-text o2-4" fill="#00d1ff">      "command": "/Users/nitrousoxide/.local/share/uv/tools/synap-git/bin/python3",</text>
+    <text x="15" y="131" class="term-text o2-4" fill="#00d1ff">      "command": "python3",</text>
     <text x="15" y="143" class="term-text o2-5" fill="#00d1ff">      "args": [</text>
     <text x="15" y="155" class="term-text o2-6" fill="#00d1ff">        "-m",</text>
     <text x="15" y="167" class="term-text o2-7" fill="#00d1ff">        "synap_git.cli",</text>
     <text x="15" y="179" class="term-text o2-8" fill="#00d1ff">        "mcp",</text>
     <text x="15" y="191" class="term-text o2-9" fill="#00d1ff">        "start",</text>
-    <text x="15" y="203" class="term-text o2-10" fill="#00d1ff">        "/Users/nitrousoxide/Code/saahilpal"</text>
+    <text x="15" y="203" class="term-text o2-10" fill="#00d1ff">        "~/Code/synapse"</text>
     <text x="15" y="215" class="term-text o2-11" fill="#00d1ff">      ],</text>
     <text x="15" y="227" class="term-text o2-12" fill="#00d1ff">      "autoConnect": true</text>
     <text x="15" y="239" class="term-text o2-13" fill="#00d1ff">    }</text>

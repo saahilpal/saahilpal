@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="100%" height="220" style="background: transparent;">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f0f6fc"/>
+      <stop offset="100%" stop-color="#8b949e"/>
+    </linearGradient>
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.1); }
+    }
+    .pulse {
+      animation: pulse-dot 2.5s ease-in-out infinite;
+      transform-origin: 720px 42px;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif;
+    }
+  </style>
+
+  <!-- Card Frame -->
+  <rect x="2" y="2" width="836" height="216" rx="14" fill="url(#card-bg)" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Top Accent Beam -->
+  <rect x="60" y="2" width="720" height="1.5" fill="url(#line-glow)"/>
+
+  <!-- Window Chrome Header -->
+  <circle cx="28" cy="24" r="5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+  <circle cx="44" cy="24" r="5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+  <circle cx="60" cy="24" r="5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+  
+  <text x="82" y="28" fill="#7d8590" font-size="11" class="mono">saahilpal@arch ~ zsh</text>
+
+  <!-- Live Status Chip (Right) -->
+  <g transform="translate(0, 0)">
+    <rect x="635" y="14" width="180" height="22" rx="11" fill="#1f242c" stroke="#30363d" stroke-width="1"/>
+    <circle cx="649" cy="25" r="3.5" fill="#22c55e" class="pulse" filter="url(#glow)"/>
+    <text x="659" y="29" fill="#c9d1d9" font-size="10.5" class="mono" font-weight="500">building AI systems</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="2" y1="44" x2="838" y2="44" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Main Identity Content -->
+  <g transform="translate(32, 75)">
+    <!-- Name -->
+    <text x="0" y="32" fill="url(#text-grad)" font-size="34" font-weight="700" letter-spacing="-0.8px" class="sans">Sahil Pal</text>
+    
+    <!-- Role & Thesis -->
+    <text x="0" y="60" fill="url(#accent-cyan)" font-size="14.5" font-weight="600" letter-spacing="-0.2px" class="sans">AI Systems Engineer • Context Architecture &amp; Deterministic Tooling</text>
+
+    <!-- Bio Statement -->
+    <text x="0" y="86" fill="#8b949e" font-size="13" font-weight="400" class="sans">Designing deterministic context engines, AST-level code intelligence, and privacy-first edge infrastructure.</text>
+  </g>
+
+  <!-- Bottom Pills / Tags -->
+  <g transform="translate(32, 182)">
+    <!-- Pill 1: Synapse -->
+    <rect x="0" y="-14" width="105" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="10" y="2" fill="#58a6ff" font-size="11" class="mono">⚡ Synapse</text>
+
+    <!-- Pill 2: MCP -->
+    <rect x="115" y="-14" width="85" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="125" y="2" fill="#a371f7" font-size="11" class="mono">🧠 MCP</text>
+
+    <!-- Pill 3: Tree-sitter -->
+    <rect x="210" y="-14" width="115" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="220" y="2" fill="#3fb950" font-size="11" class="mono">🌲 Tree-sitter</text>
+
+    <!-- Pill 4: Cloudflare D1 -->
+    <rect x="335" y="-14" width="145" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="345" y="2" fill="#f0883e" font-size="11" class="mono">☁️ Workers + D1</text>
+
+    <!-- Pill 5: Location -->
+    <rect x="490" y="-14" width="150" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="500" y="2" fill="#8b949e" font-size="11" class="mono">📍 Bengaluru, IN</text>
+  </g>
+</svg>

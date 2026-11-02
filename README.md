@@ -1,58 +1,104 @@
-<h1 align="center">Sahil Pal</h1>
-<h3 align="center">Software Engineer | AI Systems & Backend Architecture</h3>
+<p align="center">
+  <img src="header.svg" alt="Sahil Pal - AI Systems Engineer" width="100%" />
+</p>
 
 <p align="center">
-  <a href="https://sahil-pal-portfolio-d147.vercel.app/">Portfolio</a> • 
-  <a href="https://linkedin.com/in/sahiilpal">LinkedIn</a> • 
-  <a href="mailto:saahilpal17@gmail.com">Email</a>
+  <a href="https://sahil-pal-portfolio-d147.vercel.app/"><strong>🌐 Portfolio</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/sahiilpal"><strong>💼 LinkedIn</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="mailto:sahil.sp.sp.2003@gmail.com"><strong>✉️ Email</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/saahilpal/hush"><strong>⚡ Latest Project: Hush</strong></a>
 </p>
+
+<br />
+
+### 👋 The Short Version
+
+I'm a software engineer based in **Bengaluru, India**, specializing in **AI systems**, **context architecture**, and **edge infrastructure**.
+
+Most AI tooling today is probabilistic guessing stacked on top of more guessing. I prefer building the **deterministic spine underneath**: git-aware AST symbol indexers, bounded execution repair loops, and privacy-first edge services designed to run indefinitely on serverless free tiers.
+
+When I'm not writing code, I'm usually studying compiler frontends, playing chess, or designing local developer tools.
 
 ---
 
-I am a Software Engineer specializing in **AI systems**, **backend architecture**, and **developer tooling**. I focus on designing production-grade Retrieval-Augmented Generation (RAG) pipelines, context engines for AI agents, and scalable REST APIs. I am comfortable owning the full stack, from data ingestion to semantic retrieval and production deployment.
+### 🚀 Featured Systems
 
-## 🛠️ Technical Arsenal
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-339939?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
-
-> **Specialized in:** LLMs, RAG, AI Agents, Vector Search, Semantic Embeddings, Model Context Protocol (MCP), Gemini API, Server-Sent Events (SSE), Event-Driven Architecture.
-
-## 🚀 Featured Engineering
-
-### [Synapse](https://github.com/saahilpal/synapse)
-> **Structural context engine for AI agents** • *Python, SQLite, MCP, Tree-sitter*
+#### ⚡ [Synapse](https://github.com/saahilpal/synapse)
+> **The Deterministic Context Injector for AI Coding Agents**  
+> `Python` • `Tree-sitter` • `SQLite FTS5` • `Model Context Protocol (MCP)`
 > 
-> Architected a Git-aware daemon that parses codebases into AST symbols and dependency graphs. Designed a hybrid retrieval engine combining vector similarity search with SQLite FTS5 keyword search. Built a Model Context Protocol (MCP) server delivering context-bounded code summaries.
-
-### [RAG Doc Analyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)
-> **Document Q&A AI Platform** • *Next.js, Express, PostgreSQL, pgvector, Gemini*
+> A Git-aware background daemon that indexes repositories into AST symbol hierarchies and dependency graphs. Combines vector similarity with SQLite FTS5 keyword indexing to feed bounded, deterministic context to LLM coding agents.
 > 
-> Designed a grounded RAG pipeline combining Gemini embeddings, `pgvector` similarity search, and PostgreSQL full-text fallback. Features asynchronous document ingestion via PostgreSQL worker queues for safe concurrent processing.
+> [Explore Synapse →](https://github.com/saahilpal/synapse)
 
-### [LeetSync](https://github.com/saahilpal/LeetSync)
-> **Chrome Extension & Sync Platform** • *TypeScript, Vite, Manifest V3*
+#### 🤫 [Hush](https://github.com/saahilpal/hush)
+> **Private, Free-Tier Email Open &amp; Click Tracker**  
+> `Cloudflare Workers` • `Cloudflare D1` • `Chrome MV3` • `Vanilla JS`
 > 
-> A Chrome extension that captures LeetCode editor content and automatically syncs submissions as structured Markdown notes to GitHub repositories using the Contents API.
+> Invisible 1x1 transparent tracking pixel with zero watermarks and zero stored IP addresses/user agents. Features a **4-tier sender immunity engine** (Client DOM shield, session cookie, sender IP matching, and DoH MX verification) to eliminate false opens when senders view their sent mail. Runs 100% on Cloudflare's free tier.
+> 
+> [Explore Hush →](https://github.com/saahilpal/hush)
 
-## 💼 Experience & Education
+#### 🛡️ [Patchbound](https://github.com/saahilpal/patchbound)
+> **Bounded AI Repair Engine &amp; Trust Boundaries**  
+> `Python` • `AST Analysis` • `Cryptographic Verification` • `AI Safety`
+> 
+> Deterministic trust boundaries for autonomous code repair loops. Uses Synapse AST structural retrieval and cryptographic test assertions to verify patches before runtime deployment.
+> 
+> [Explore Patchbound →](https://github.com/saahilpal/patchbound)
 
-**Software Engineering Intern** @ *Kristu Jayanti Software Development Centre* `(June 2025 - July 2025)`
-- Developed RESTful APIs in Java 17 with Vert.x. Implemented JWT-based authentication, RBAC, and MongoDB-backed asynchronous workflows.
+#### 📄 [RAG Doc Analyzer](https://github.com/saahilpal/RAG-DOCAnalyzer)
+> **Stateless Document Q&amp;A with Grounded Retrieval**  
+> `Next.js` • `pgvector` • `PostgreSQL` • `Gemini API` • `SSE Streaming`
+> 
+> Production-grade RAG pipeline combining Gemini embeddings, `pgvector` cosine similarity, and PostgreSQL full-text search. Features async ingestion worker queues and Server-Sent Events (SSE) streaming.
+> 
+> [Explore RAG Doc Analyzer →](https://github.com/saahilpal/RAG-DOCAnalyzer)
 
-**BCA** @ *Kristu Jayanti College, Bengaluru* `(2023 - 2026)`
+#### 🔄 [LeetSync](https://github.com/saahilpal/LeetSync)
+> **Automated Problem &amp; Complexity Archival Engine**  
+> `TypeScript` • `Chrome Extension (MV3)` • `Vite` • `GitHub API`
+> 
+> Manifest V3 Chrome extension that captures LeetCode problem solutions, extracts time/space complexity metadata, and syncs structured Markdown notes directly to GitHub repositories via the GitHub Contents API.
+> 
+> [Explore LeetSync →](https://github.com/saahilpal/LeetSync)
 
-## 📈 GitHub Activity
+---
+
+### 🧠 Core Engineering Principles
+
+* **Deterministic Spine, Probabilistic Leaves** — LLMs excel at synthesis and creative reasoning, but break when guessing repository structure. Provide them with deterministic AST symbols, types, and boundaries first.
+* **Free-Tier Sovereign** — Great software shouldn't require heavy cloud bills. I architect systems that operate efficiently inside edge free limits (Cloudflare Workers, D1, Supabase, Vercel) through sub-millisecond execution and batching.
+* **Zero Telemetry Sprawl** — Respect privacy by default. Tools like Hush store zero IP addresses, zero user agents, and attach zero tracking watermarks to outgoing emails.
+* **Code is for Humans First** — Simple, legible abstractions with minimal external dependencies beat clever over-engineering every time.
+
+---
+
+### 🛠️ Technical Arsenal
+
+| Domain | Primary Tools &amp; Primitives |
+|:---|:---|
+| **AI Systems &amp; Context** | Model Context Protocol (MCP), Tree-sitter AST, Gemini API, RAG, pgvector, Semantic Search |
+| **Languages &amp; Runtimes** | TypeScript, Python, Node.js, Java 17 (Vert.x), React, Next.js, Go |
+| **Databases &amp; Storage** | Cloudflare D1, SQLite (FTS5 / WAL), PostgreSQL, Redis, MongoDB |
+| **Edge &amp; Infrastructure** | Cloudflare Workers, Chrome Extensions (MV3), Docker, Git Internals, Linux |
+
+---
+
+### 📖 Currently Exploring &amp; Tinkering
+
+* **Local Code Models &amp; Quantization** — Running low-latency AST-guided code completions locally via `llama.cpp`.
+* **Distributed Consensus &amp; Edge DBs** — WAL replication semantics and single-digit ms edge storage with Cloudflare D1.
+* **Chess Engines &amp; Tree Traversal** — Minimax variations, alpha-beta pruning, and position evaluation heuristics.
+
+---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&hide_border=true&theme=default&count_private=true" alt="Sahil's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&hide_border=true&theme=default" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=saahilpal&show_icons=true&hide_border=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&title_color=f0f6fc&count_private=true" alt="Sahil's GitHub Stats" height="150" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saahilpal&layout=compact&hide_border=true&bg_color=0d1117&text_color=8b949e&title_color=f0f6fc" alt="Top Languages" height="150" />
+</p>
+
+<p align="center">
+  <sub>Crafted with care • Built for clarity, performance, and deterministic systems</sub>
 </p>
