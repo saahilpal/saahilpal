@@ -1,0 +1,37 @@
+name: Update Chess Profile Telemetry
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC
+  workflow_dispatch:     # Allows manual run from GitHub UI or CLI
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch Chess.com Telemetry & Generate Hero SVG
+        run: |
+          python3 scripts/generate_profile.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/chess-hero.svg data/chess_cache.json
+          if git diff --staged --quiet; then
+            echo "No changes in Chess.com telemetry."
+          else
+            git commit -m "chore(chess): sync live rating and latest game telemetry [skip ci]"
+            git push
+          fi

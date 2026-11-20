@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "chess_daily": {
+      "last": {
+        "rating": 1381,
+        "date": 1732390128,
+        "rd": 87
+      },
+      "best": {
+        "rating": 1685,
+        "date": 1661352223,
+        "game": "https://www.chess.com/game/daily/428604987"
+      },
+      "record": {
+        "win": 15,
+        "loss": 8,
+        "draw": 1,
+        "time_per_move": 15197,
+        "timeout_percent": 0
+      }
+    },
+    "chess_rapid": {
+      "last": {
+        "rating": 860,
+        "date": 1783274091,
+        "rd": 138
+      },
+      "best": {
+        "rating": 1418,
+        "date": 1651594328,
+        "game": "https://www.chess.com/game/live/124748405913"
+      },
+      "record": {
+        "win": 40,
+        "loss": 32,
+        "draw": 3
+      }
+    },
+    "chess_bullet": {
+      "last": {
+        "rating": 496,
+        "date": 1765809910,
+        "rd": 176
+      },
+      "best": {
+        "rating": 1388,
+        "date": 1662308994,
+        "game": "https://www.chess.com/game/live/146749591522"
+      },
+      "record": {
+        "win": 2,
+        "loss": 6,
+        "draw": 0
+      }
+    },
+    "chess_blitz": {
+      "last": {
+        "rating": 917,
+        "date": 1786634617,
+        "rd": 97
+      },
+      "best": {
+        "rating": 1124,
+        "date": 1687768879,
+        "game": "https://www.chess.com/game/live/81438672851"
+      },
+      "record": {
+        "win": 2138,
+        "loss": 2054,
+        "draw": 113
+      }
+    },
+    "tactics": {
+      "highest": {
+        "rating": 1556,
+        "date": 1759389733
+      },
+      "lowest": {
+        "rating": 1337,
+        "date": 1794855791
+      }
+    },
+    "puzzle_rush": {
+      "best": {
+        "total_attempts": 30,
+        "score": 27
+      }
+    }
+  },
+  "latest_game": {
+    "url": "https://www.chess.com/game/live/172939473130",
+    "fen": "2kr3r/2p3p1/4p3/2p5/pp2PR2/6Q1/PPPqn1PP/1N3RK1 w - - 2 22",
+    "opening": "Giuoco Piano Game",
+    "opponent": "Littleboy3atu",
+    "opponent_rating": 1006,
+    "sahil_rating": 917,
+    "result_str": "0-1",
+    "time_class": "Blitz",
+    "last_move": "21... Ne2+",
+    "highlight_sq": "e2",
+    "check_sq": "g1"
+  },
+  "updated_at": "2026-11-20T13:55:22.893060+00:00"
+}
