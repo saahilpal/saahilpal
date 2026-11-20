@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch Chess.com Telemetry & Generate Hero SVG
+      - name: Fetch Chess.com Telemetry & Generate Card SVG
         run: |
           python3 scripts/generate_profile.py
 
@@ -28,10 +28,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/chess-hero.svg data/chess_cache.json
+          git add assets/chess-card.svg data/chess_cache.json
           if git diff --staged --quiet; then
             echo "No changes in Chess.com telemetry."
           else
-            git commit -m "chore(chess): sync live rating and latest game telemetry [skip ci]"
+            git commit -m "chore(chess): sync live rating and telemetry card [skip ci]"
             git push
           fi
