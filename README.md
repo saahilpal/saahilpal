@@ -5,9 +5,7 @@
 
 ---
 
-I build backend systems, context engines for AI coding agents, and evaluation infrastructure.
-
-I care about low latency, verifiable invariants, local-first execution, and keeping systems free-tier friendly without unnecessary bloat or cloud bills.
+I build backend systems and AI applications. I love solving hard engineering problems and building fast, reliable software that actually works.
 
 ---
 
