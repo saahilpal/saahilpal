@@ -19,14 +19,6 @@ I build backend systems and AI applications. I love solving hard engineering pro
 * **Blast-Radius Centrality:** Recursive CTE graph traversal (**0.8 ms P95**) combined with Personalized PageRank to rank impacted files and functions before an agent writes a diff.
 * **Zero Cloud Footprint:** Runs 100% locally on device with zero external API calls or telemetry.
 
-#### [PropEval](https://github.com/saahilpal/propeval) · [*Laya Training*](https://github.com/saahilpal/propeval-laya-training)
-> **Production Hinglish voice AI eval & regression workbench for Indian real estate sales.**
-
-* **Dual-Engine Cascade:** Sub-millisecond fine-tuned Laya System-1 classifier (**<0.4 ms CPU SLA**, 92.1% resolution rate, $\kappa = 0.9912$) resolving routine turns before escalating to an LLM System-2 judge.
-* **PostgreSQL 17 Queue:** High-concurrency `SKIP LOCKED` worker coordination with transactional turn commits and strict budget reservation fencing.
-* **Paired Statistical Rigor:** Layered hypothesis testing with McNemar + Newcombe Method 10 ($K=1$), and Wilcoxon signed-rank + 10,000-sample Two-Stage Cluster Bootstrap ($K>1$).
-* **158 Tests Passing:** Comprehensive test suite covering deterministic FSM buyer simulation, 8 kHz telephony ASR confusion matrices, and budget normalizers.
-
 #### [Disha AI](https://github.com/saahilpal/disha-ai)
 > **Chronic condition lifestyle health coach for hypertension & diabetes grounded in ICMR & NIN guidelines.**
 
